@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{teammate.firstName}} {{teammate.lastName}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text="Meet The Team"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="{{teammate.avatar}}" alt="" />
+  <div [ngStyle]="setContentStyle()" class="content">
+    <div class="name">{{teammate.firstName}} {{teammate.lastName}}</div>
+    <div class="title">{{teammate.title}}</div>
+    <div class="bio">{{teammate.bio}}</div>
+  </div>
+</ion-content>

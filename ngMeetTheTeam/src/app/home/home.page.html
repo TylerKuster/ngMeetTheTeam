@@ -1,20 +1,21 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title class="ion-text-center"> Meet The Team </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  <div
+    *ngFor="let teammate of theTeam; let i = index;"
+    class="team-row"
+    (click)="didTapTeammateAtRow(i)"
+  >
+    <img src="{{teammate.avatar}}" alt="" class="avatar" />
+    <div>
+      <div>{{teammate.firstName}} {{teammate.lastName}}</div>
+      <div class="job-title">{{teammate.title}}</div>
+    </div>
+    <div class="flex-spacer">&nbsp;</div>
+    <ion-icon name="chevron-forward"></ion-icon>
   </div>
 </ion-content>

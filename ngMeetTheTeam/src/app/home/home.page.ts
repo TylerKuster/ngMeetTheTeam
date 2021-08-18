@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
+import { Teammate } from '../models/teammate';
+import CAT_TEAM from '../services/team-data.service';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +10,15 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  theTeam: Array<Teammate> = CAT_TEAM();
 
-  constructor() {}
+  constructor(private router: Router) {
+    console.log('CAT_TEAM', this.theTeam[0]);
+  }
 
+  didTapTeammateAtRow(index: number) {
+    this.router.navigateByUrl('/detail', {
+      state: { teammate: this.theTeam[index] },
+    });
+  }
 }
