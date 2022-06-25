@@ -1,6 +1,6 @@
-Meet Yet Another Team
+ngMeetTheTeam
 ======
-**Meet Yet Another Team** is a seemingly simple code test riddled with custom elements, subtle auto layout requirements, and commonly overlooked UX considerations.
+**ngMeetTheTeam** is a seemingly simple code test riddled with custom elements, subtle auto layout requirements, and commonly overlooked UX considerations.
 
 Originally an Objective-C project, it was converted to Angular as a straight forward yet complex coding example. The goal was to recreate the “Meet the Team” iOS application based on the (slightly modified) screenshots below. The app should allow the user to browse and learn about the team by scrolling through a list, and tapping anyone to learn more.
 
