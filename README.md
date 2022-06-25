@@ -5,7 +5,7 @@ Meet Yet Another Team
 Originally an Objective-C project, it was converted to Angular as a straight forward yet complex coding example. The goal was to recreate the “Meet the Team” iOS application based on the (slightly modified) screenshots below. The app should allow the user to browse and learn about the team by scrolling through a list, and tapping anyone to learn more.
 
 #### Screenshots
-<img src="https://64.media.tumblr.com/5763decb97cbd8e41b842063fec10e26/1553609648a630eb-3a/s1280x1920/ff46f14a393033bb914d0801aa88557ffe5b7712.png" width="280"/>    <img src="https://64.media.tumblr.com/26514f5fc9894b976ef228d5fd19ac57/1553609648a630eb-7f/s1280x1920/e3c99247445ac00cadf04179fd25883e4a46c98f.png" width="280"/>    <img src="https://64.media.tumblr.com/5763decb97cbd8e41b842063fec10e26/1553609648a630eb-3a/s1280x1920/ff46f14a393033bb914d0801aa88557ffe5b7712.png" width="280"/>
+<img src="https://64.media.tumblr.com/2925194a7fd8615bf4ae1f544b7d0583/1553609648a630eb-6f/s1280x1920/ba4e12286edce27ffbac999017f89a3f13c92fcd.png" width="280"/>    <img src="https://64.media.tumblr.com/26514f5fc9894b976ef228d5fd19ac57/1553609648a630eb-7f/s1280x1920/e3c99247445ac00cadf04179fd25883e4a46c98f.png" width="280"/>    <img src="https://64.media.tumblr.com/5763decb97cbd8e41b842063fec10e26/1553609648a630eb-3a/s1280x1920/ff46f14a393033bb914d0801aa88557ffe5b7712.png" width="280"/>
 
 ## Custom Elements
 #### Team View
