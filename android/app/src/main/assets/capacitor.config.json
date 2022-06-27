@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ngMeetTheTeam",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

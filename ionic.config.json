@@ -1,5 +1,7 @@
 {
   "name": "ngMeetTheTeam",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
